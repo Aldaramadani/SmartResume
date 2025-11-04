@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  SmartResume:
+    build: .
+    container_name: SmartResume-app
+    volumes:
+      - ./configs:/app/configs
+      - ./resume_dataset:/app/resume_dataset
+      - ./output:/app/output
+    environment:
+      - PYTHONPATH=/app
+      - CUDA_VISIBLE_DEVICES=""
+    command: python scripts/start.py --file /app/resume_dataset/1.pdf
+    restart: unless-stopped
+    
+  SmartResume-dev:
+    build: .
+    container_name: SmartResume-dev
+    volumes:
+      - .:/app
+      - ./configs:/app/configs
+      - ./resume_dataset:/app/resume_dataset
+      - ./output:/app/output
+    environment:
+      - PYTHONPATH=/app
+      - CUDA_VISIBLE_DEVICES=""
+    command: /bin/bash
+    stdin_open: true
+    tty: true
+    restart: "no"
