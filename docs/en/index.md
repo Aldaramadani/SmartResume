@@ -9,8 +9,6 @@
 
 SmartResume is an intelligent resume parsing system focused on layout structure, built on the SmartResume pipeline. The system supports PDF, image, and common Office document formats, combines OCR with PDF metadata for text extraction, reconstructs reading order through layout detection, and converts content into structured fields (such as: basic information, work experience, education, etc.) through LLM. The system supports both remote API and local model deployment, providing flexible usage methods.
 
-![Demo Image](assets/demo.png)
-
 ## Key Features
 
 | Metric Category | Specific Metric | Value | Description |
