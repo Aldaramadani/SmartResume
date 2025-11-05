@@ -11,18 +11,22 @@ RUN apt-get update && apt-get install -y \
     libxrender-dev \
     libgomp1 \
     libgthread-2.0-0 \
+    build-essential \
+    gcc \
+    g++ \
     && rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir --upgrade pip setuptools wheel && \
+    pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-RUN pip install -e .
-
-EXPOSE 8000
+RUN pip install --no-cache-dir -e .
 
 ENV PYTHONPATH=/app
-ENV CUDA_VISIBLE_DEVICES=""
+ENV PYTHONUNBUFFERED=1
+
+EXPOSE 4999
 
 CMD ["python", "scripts/start.py", "--help"]
