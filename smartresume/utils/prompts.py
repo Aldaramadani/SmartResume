@@ -4,7 +4,7 @@ Prompt management module
 from typing import Dict
 
 SYSTEM_PROMPT = """
-您是一个专业的简历分析助手。您的任务是将给定的简历文本转换为下面给定的 JSON 输出。
+您是一个专业的简历分析助手。您的任务是将给定的简历文本转换为下面给定的 JSON 输出。(如果有中英文简历同时出现时，只关注中文简历)
 """
 
 BASIC_INFO_PROMPT = """
@@ -12,8 +12,8 @@ BASIC_INFO_PROMPT = """
 {
   "basicInfo": {
     "name": "", # 姓名 如: 张三
-    "personalEmail": "", # 邮箱
-    "phoneNumber": "", #电话/手机 请保留原文中的形式 保留国家码 区号括号
+    "personalEmail": "", # 邮箱 如:610730297@qq.com
+    "phoneNumber": "", #电话/手机 如:13915732235 请保留原文中的形式 保留国家码 区号括号 例如:"+1（201）706 1136"
     "age":"", # 当前年龄
     "born": "", # 出生年  如 1996-11
     "gender": "", # 男/女 若不存在 则不填
@@ -65,7 +65,7 @@ EDUCATION_PROMPT = """
         "startDate": "", # 开始时间 格式为 %Y.%m 或 %Y 如 2024 ,2024.1
         "endDate":""  #若至今 填写  "至今"  若不存在 填写""
       },
-      "school": "", #学校名称 中英文都可以
+      "school": "", #学校名称: 如厦门大学 MIT 中英文都可以
       "department": "", # 系: 如信息工程系
       "major": "", # 专业: 如机械工程
       "educationDescription": "" # 教育描述  包括这段教育经历的课程成绩、研究方向、GPA、荣誉奖项等 不包含学位。直接使用简历中的描述 不存在则填写 "" 空
