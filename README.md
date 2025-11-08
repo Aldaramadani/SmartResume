@@ -119,7 +119,15 @@ For detailed configuration options, see the [Configuration Guide](docs/configura
 
 This project is licensed under the [LICENSE](LICENSE).
 
-Currently, some models in this project were previously trained with third-party detectors. We plan to explore and replace them with models under more permissive licenses to enhance user-friendliness and flexibility.
+We plan to explore and replace them with models under more permissive licenses to enhance user-friendliness and flexibility.
+
+## Important Notice
+
+Due to open-source compliance requirements, this codebase is a refactored version. The internal PDF parsing and OCR components cannot be published. We have replaced them with open-source alternatives, and some features may not be fully compatible with the original implementation. The following features are pending optimization:
+
+1. **Avoid loading models on every call, support vLLM deployment** - Optimize model loading mechanism to avoid repeated loading and support vLLM deployment calls
+2. **Watermarked and corrupted PDF parsing via OCR pipeline** - Use OCR pipeline for parsing watermarked or corrupted PDF files
+3. **Simpler API interface** - Simplify API calls to improve usability
 
 ## Acknowledgments
 
