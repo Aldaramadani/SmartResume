@@ -8,7 +8,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "SmartResume"
-version = "0.1.0"
+version = "0.1.1"
 license = { text = "Apache-2.0" }
 description = "Intelligent Resume Parsing System"
 readme = "README.md"
